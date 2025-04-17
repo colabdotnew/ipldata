@@ -2,7 +2,6 @@ import zipfile
 import json
 import os
 import pandas as pd
-
 zip_file_path = '/content/ipl_json.zip'
 extracted_dir = '/content/extracted_ipl_data'
 all_results = pd.DataFrame()  # Initialize an empty DataFrame to store all results
